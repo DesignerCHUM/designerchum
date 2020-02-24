@@ -807,6 +807,7 @@ a {
 }
 
 .image-15 {
+  display: block;
   margin: 20px 20px 60px;
 }
 
@@ -1670,6 +1671,7 @@ a {
   }
   .image-15 {
     max-width: 100%;
+    min-width: 568px;
     margin-right: 0px;
     margin-left: 0px;
     padding-right: 20px;
@@ -1947,7 +1949,9 @@ a {
     margin-bottom: 20px;
   }
   .image-15 {
+    display: inline-block;
     max-width: 100%;
+    min-width: 320px;
     margin-right: 0px;
     margin-left: 0px;
     padding-right: 20px;
@@ -1960,6 +1964,10 @@ a {
   .columns-2 {
     margin-top: 0px;
   }
+  .image-20 {
+    display: inline-block;
+    min-width: 300px;
+  }
   .containercolors {
     margin-top: 20px;
   }
@@ -1967,8 +1975,15 @@ a {
     margin-bottom: 0px;
     padding-bottom: 0px;
   }
+  .image-22 {
+    min-width: 300px;
+  }
   .image-25 {
     margin-top: 40px;
+  }
+  .image-26 {
+    display: inline-block;
+    min-width: 200px;
   }
   .container-su {
     overflow: visible;
@@ -2050,6 +2065,9 @@ a {
   }
   .column-11 {
     display: none;
+  }
+  .div-block-17 {
+    text-align: center;
   }
 }
 
