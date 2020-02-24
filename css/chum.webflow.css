@@ -686,7 +686,16 @@ a {
 }
 
 .footer {
+  display: block;
   min-height: 80px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-color: #fff;
 }
 
@@ -712,11 +721,12 @@ a {
 }
 
 .body-2 {
-  background-color: #1b1b44;
+  background-color: #fff;
 }
 
 .section-3 {
   padding-top: 40px;
+  background-color: #1b1b44;
 }
 
 .container-4 {
@@ -1393,6 +1403,52 @@ a {
   align-items: center;
 }
 
+.image-34 {
+  margin-left: 10px;
+}
+
+.image-35 {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.image-36 {
+  margin-left: 10px;
+}
+
+.image-37 {
+  margin-left: 10px;
+}
+
+.image-38 {
+  margin-left: 10px;
+}
+
+.column-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  padding-right: 0px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.image-39 {
+  margin-right: 10px;
+}
+
+.image-40 {
+  margin-right: 10px;
+}
+
+.column-13 {
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-item {
     padding: 15px 30px;
@@ -1847,6 +1903,39 @@ a {
     -ms-flex-order: 0;
     order: 0;
   }
+  .column-12 {
+    padding-right: 10px;
+  }
+  .columns-8 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .columns-9 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .columns-10 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .columns-11 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .columns-12 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1925,6 +2014,9 @@ a {
   }
   .image-14 {
     margin-top: 10px;
+  }
+  .footer {
+    display: block;
   }
   .section-3 {
     padding-top: 10px;
@@ -2068,6 +2160,30 @@ a {
   }
   .div-block-17 {
     text-align: center;
+  }
+  .column-12 {
+    display: block;
+    text-align: center;
+  }
+  .column-13 {
+    text-align: center;
+  }
+  .columns-8 {
+    display: block;
+    text-align: center;
+  }
+  .columns-9 {
+    display: block;
+  }
+  .columns-10 {
+    display: block;
+    text-align: left;
+  }
+  .columns-11 {
+    display: block;
+  }
+  .columns-12 {
+    display: block;
   }
 }
 
